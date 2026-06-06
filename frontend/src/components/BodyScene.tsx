@@ -47,9 +47,9 @@ export function BodyScene({ onPartSelect, onPartHover, selectedPart, hoveredPart
           mipmapBlur: smoother, more physically accurate spread. */}
       <EffectComposer>
         <Bloom
-          luminanceThreshold={0.05}
-          intensity={1.4}
-          radius={0.8}
+          luminanceThreshold={0.02}
+          intensity={2.2}
+          radius={0.92}
           levels={8}
           mipmapBlur
         />
